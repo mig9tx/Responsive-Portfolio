@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto 0;
+    /* background-image: url("../images/honey_im_subtle.png"); */
+}
+.container {
+    background-color:white;
+    position: relative;
+    width: 960px;
+    overflow: auto;
+}
+
+#Image1 {
+    position:static;
+    padding: 5px;
+}
+
+body{
+    background-image: url("../images/honey_im_subtle.png");
+    width: 960px;
+    margin: 0 auto 0 auto;
+
+}
+
+h1 {
+    background-color:teal;
+    margin: 0;
+    color: white;
+   padding: 20px;
+    text-align: left;
+    width: 480px;
+    float: left;
+    font: 40px;
+    /* position: relative; */
+}
+
+.nav {
+    width: 480px;
+    background-color: teal;
+    float: left;
+    text-align: center;
+    padding: 20px;
+    
+}
+
+ul{
+    /* float: right; */
+    /* position:absolute; */
+    /* margin-top: 80px; */
+}
+
+li {
+display:inline;
+text-align: center;
+
+}
+
+h2 {
+   clear:both; 
+   color: teal;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+img.align-left {
+     float: left;
+     margin-right: 20px;
+}
+
+h1, h2 {
+    font-family: "Georgia", 'Times New Roman', Times, serif
+}
+
+#about-me{
+   clear:both;
+   background-color: white;
+   overflow:auto;
+   padding: 30px;
+   width: 960px;
+   margin: 0 auto 0 auto;
+}
+
+.footer {
+    clear:both;
+    display: flex;
+    margin-top: auto;
+    background-color: teal;
+    position: fixed;
+    bottom:0;
+    left:0;
+    padding: 30px;
+    width: 100%;
+    text-align: left;   
+}
+
+#contact {
+    background-color: white;
+    padding: 30px;
+}
+
+#message-box{
+    width: 700px;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+}
+
+ #submit{
+    width: 100px;
+}
+
+
+#image {
+    position:relative;
+}
+
+p1{
+    position: absolute;
+}
+
+.main {
+    width: 50%;
+}
+
+
+@media screen and (max-width: 980px){
+    .container {
+        width: 100%
+    }
+    h1 {
+        float:left;
+    }
+    .nav {
+        width: 50%;
+       
+    }
+    .main {
+            width: 50%;
+        }
+    #about-me {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .wrapper {
+        width: 100%;
+    }
+    .nav {
+        width: 100%;
+        float: none;
+    }
+    h1 {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .main {
+        width: 100%;
+        float: none;
+    }
+    #about-me {
+        width:100%;
+    }
+    .align-left {
+        width: 100%;
+    }
+    body {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 640px){
+    .wrapper {
+        width: 100%;
+    }
+    .main {
+        width:100%;
+    }
+    .nav {
+        width:100%;
+    
+    }
+    p {
+        width: 100%;
+    }
+    body {
+        width: 100%;
+    }
+    #pic {
+        width: 100%;
+    }
+}    
+    
